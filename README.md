@@ -241,3 +241,5 @@ if __name__ == "__main__":
 
 ```
 # Output :
+<img width="818" height="426" alt="image" src="https://github.com/user-attachments/assets/4d4b4971-2ba8-4534-a3de-b9d1b91bbbd0" />
+
