@@ -1,5 +1,10 @@
 # Elliptic-Curve-Cryptography
-Elliptic Curve Cryptography (ECC) is a public-key cryptographic system based on the algebraic structure of elliptic curves over finite fields. The security of ECC relies on the difficulty of the Elliptic Curve Discrete Logarithm Problem (ECDLP).Core OperationsThe key concepts in ECC are:Point Addition ($P + Q = R$): A line through points $P$ and $Q$ intersects the curve at a third point, $R'$. Reflecting $R'$ across the x-axis gives $R$.Point Doubling ($P + P = 2P$): A tangent line at point $P$ intersects the curve at a second point, $R'$. Reflecting $R'$ across the x-axis gives $2P$.Scalar Multiplication ($kP$): Repeated point addition and doubling, representing the private key ($k$).Implementation Concept (Python Example)A simplified implementation would involve defining the curve parameters and the scalar multiplication function.Python# Conceptual Python Code for ECC (Requires a robust math library for real implementation)
+Elliptic Curve Cryptography (ECC) is a public-key cryptographic system based on the algebraic structure of elliptic curves over finite fields.
+The security of ECC relies on the difficulty of the Elliptic Curve Discrete Logarithm Problem (ECDLP).Core OperationsThe key concepts in ECC are:Point Addition ($P + Q = R$):
+A line through points $P$ and $Q$ intersects the curve at a third point, $R'$. Reflecting $R'$ across the x-axis gives $R$.Point Doubling ($P + P = 2P$):
+A tangent line at point $P$ intersects the curve at a second point, $R'$. 
+Reflecting $R'$ across the x-axis gives $2P$.Scalar Multiplication ($kP$): Repeated point addition and doubling, representing the private key ($k$).Implementation Concept (Python Example)A simplified implementation would involve defining the curve parameters and the scalar multiplication function.
+Python# Conceptual Python Code for ECC (Requires a robust math library for real implementation)
 
 # This example is highly simplified for illustration.
 ```py
